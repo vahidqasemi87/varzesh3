@@ -1,0 +1,65 @@
+/* Vahid Ghasemi */
+/* برای اینکه فونت ها در فایل مقصد بدون تغییر باقی بمانند از این ویژگی استفاده می کنیم. */
+@font-face {
+  font-family: Nassim;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./nassim-bold.woff");
+}
+@font-face {
+  font-family: Nassim;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./nassim-bold.woff") format("woff");
+}
+/* ------------------------------------------------------------------------------------------------------- */
+/* این تنظیمات برای یکسان سازی تگ های موجود در صفحه تنظیم شده اند */
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #3d73b1;
+}
+a:hover {
+  color: #3d73b1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: 1px solid #dadada;
+}
+#slideShow {
+  border: 1px solid #dadada;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: Nassim, tahoma;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  direction: rtl;
+  line-height: 22px;
+}
+.container {
+  margin: 0 auto;
+  width: 965px;
+}
+
+.clear {
+  clear: both !important;
+}
+.text-center {
+  text-align: center;
+}

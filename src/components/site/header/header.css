@@ -1,0 +1,97 @@
+.header {
+  background-color: #294e79;
+}
+.header .container .logo {
+  color: white;
+  margin-top: 15px;
+  float: right;
+}
+.header .container .logo h1 {
+  margin: 10px 0;
+  color: white;
+}
+.header .container .logo p {
+  margin: 0;
+  font-size: 11px;
+}
+.header .container .menu-holder {
+  float: left;
+  margin-top: 10px;
+}
+.header .container .menu-holder .search {
+  float: left;
+}
+.header .container .menu-holder .search input {
+  background-color: #1c3451;
+  border: 1px solid #4a80c1;
+  float: right;
+  margin-right: 10px;
+  color: white;
+  font-size: 11px;
+}
+.header .container .menu-holder .search input[type="submit"] {
+  padding: 2px 10px 6px;
+  cursor: pointer;
+}
+.header .container .menu-holder .search input[type="submit"]:hover {
+  background-color: white;
+  color: #1c3451;
+}
+.header .container .menu-holder .search input[type="text"] {
+  padding: 5px;
+}
+.header .container .menu-holder > ul {
+  margin: 0;
+  float: left;
+  padding: 0;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 21px;
+}
+.header .container .menu-holder > ul > li {
+  list-style-type: none;
+  float: right;
+  margin-right: 10px;
+  position: relative;
+}
+.header .container .menu-holder > ul > li ul {
+  width: 200px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 42px;
+  display: none;
+}
+.header .container .menu-holder > ul > li ul li {
+  list-style-type: none;
+  line-height: 15px;
+  position: relative;
+}
+.header .container .menu-holder > ul > li ul li + li {
+  border-top: 1px solid #4a80c1;
+}
+.header .container .menu-holder > ul > li ul li a {
+  background-color: #3d73b1;
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.header .container .menu-holder > ul > li ul li a:hover {
+  background-color: white;
+  color: #666666;
+}
+.header .container .menu-holder > ul > li:hover ul {
+  display: block;
+}
+.header .container .menu-holder > ul > li.selected a {
+  background-color: white;
+  color: #666666;
+}
+.header .container .menu-holder > ul > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #3d73b1;
+  display: block;
+}

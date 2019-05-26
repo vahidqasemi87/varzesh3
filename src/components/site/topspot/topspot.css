@@ -1,0 +1,13 @@
+.topspot {
+  background-color: #dcdcdc;
+  margin: 20px 0;
+}
+.topspot .container .larg-image {
+  float: right;
+  width: 650px;
+}
+.topspot .container .thumbnails {
+  float: right;
+  width: 301px;
+  margin-right: 14px;
+}

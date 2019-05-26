@@ -1,0 +1,50 @@
+.footer {
+  background-color: #1c3451;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+.footer .container .col {
+  width: 281px;
+  float: right;
+  font-size: 14px;
+}
+.footer .container .col + .col {
+  margin-right: 60px;
+}
+.footer .container .col .page-header {
+  color: white;
+  border-color: #999999;
+}
+.footer .container .col p {
+  line-height: 20px;
+  color: white;
+}
+.footer .container .col a {
+  color: #98b7dc;
+}
+.footer .container .col a:hover {
+  color: #eeeeee;
+}
+.footer .container .col .form .form-group {
+  margin: 5px 0px;
+}
+.footer .container .col .form .form-group label {
+  display: inline-block;
+  min-width: 100px;
+  color: white;
+}
+.footer .container .col .form .form-group input[type="text"],
+.footer .container .col .form .form-group textarea {
+  width: 177px;
+}
+.footer .copyright {
+  color: #888888;
+  border-top: 1px dashed #888888;
+  margin-top: 10px;
+  font-size: 12px;
+  padding: 10px 0;
+}
+.footer .copyright .hearts {
+  color: red;
+  font-size: 14px;
+}
