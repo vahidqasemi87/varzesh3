@@ -3,6 +3,8 @@ import "../topspot/topspot.css";
 import pic1 from "../css/image/1.png";
 import pic2 from "../css/image/2.png";
 import largimage from "../css/image/larg-image.png";
+import SlideShow from "../slide/slideShow";
+import Imgjs from "../slide/imgjs";
 class TopSpot extends Component {
   state = {};
   render() {
@@ -10,7 +12,9 @@ class TopSpot extends Component {
       <div className="topspot">
         <div className="container">
           <div className="larg-image">
-            <img src={largimage} />
+            <Imgjs />
+
+            {/* <img src={largimage} /> */}
           </div>
           <div className="thumbnails">
             <div className="item">

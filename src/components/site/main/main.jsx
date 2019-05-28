@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import pic6 from "../css/image/6.png";
+import pic5 from "../css/image/5.png";
 import pic7 from "../css/image/4.png";
 import pic8 from "../css/image/7.png";
 import SlideShow from "../slide/slideShow";
@@ -30,9 +31,7 @@ class Main extends Component {
               دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
             </p>
             <div className="col">
-              {/* <img src={pic5} /> */}
-
-              <SlideShow />
+              <img src={pic5} />
 
               <h4 className="page-header">
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
